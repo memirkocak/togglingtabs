@@ -1,0 +1,22 @@
+body{
+  background-color: rgb(106, 210, 236);
+  margin-top: 7%;
+  text-align: center;
+}
+
+#btn{
+  color: white;
+}
+
+#select{
+  display: none;
+}
+
+@media (max-width: 576px) {
+    #btn{
+      display: none;
+    }
+    #select{
+      display: inline-block;
+    }
+}
